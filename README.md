@@ -34,3 +34,37 @@ Exit:
 
 Terminates the application.
 
+
+
+
+
+
+
+
+
+
+
+<h1>Project: Automation and backup </h2>
+
+<h2>Introduction</h2>
+
+This project streamlines tasks related to the ALU Negpod assignments through two shell scripts:
+
+1. move-to-directory.sh
+
+Functionality:
+Automatically moves the four files created in Question 1 (main.sh, students-list_1023.txt, select-emails.sh, and student-emails.txt) to a directory named negpod_11-q1.
+Usage:
+Execute the script from the project directory: ./move-to-directory.sh
+2. backup-Negpod_11.sh
+
+Functionality:
+Creates a backup of the directory created in Question 2 (containing the files from Question 1) to a remote server.
+
+
+<h3>Testing Backup:</h3>
+
+1.Create a test directory with the same structure as the one you want to back up.
+2.Run the backup-Negpod_11.sh script with the test directory path.
+3.Verify that the test directory contents are successfully copied to the remote server location.
+
