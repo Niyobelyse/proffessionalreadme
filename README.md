@@ -8,7 +8,7 @@ This project implements a shell scripting application to manage student registra
 <h3> Functionality</h3>
 
 The following are the functionalities of our application:
-Create Student Record:
+Create Student Record:<br/>
 
 Enter the student's email, age, and student ID.
 The record is saved to students-list_1023.txt.
